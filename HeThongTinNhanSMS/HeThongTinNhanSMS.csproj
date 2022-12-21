@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D51F7BA9-AF2F-40A7-80D3-B45DA9DA2908}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HeThongTinNhanSMS</RootNamespace>
+    <AssemblyName>HeThongTinNhanSMS</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controlers\GuiTinNhanFromControler.cs" />
+    <Compile Include="Views\GuiTinNhanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\GuiTinNhanForm.Designer.cs">
+      <DependentUpon>GuiTinNhanForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MainFrom.Designer.cs">
+      <DependentUpon>MainFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PhanNhomForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\PhanNhomForm.Designer.cs">
+      <DependentUpon>PhanNhomForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QuanLyDanhBaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\QuanLyDanhBaForm.Designer.cs">
+      <DependentUpon>QuanLyDanhBaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QuanLyNhomForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\QuanLyNhomForm.Designer.cs">
+      <DependentUpon>QuanLyNhomForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ThongKeChiTietSMSForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ThongKeChiTietSMSForm.Designer.cs">
+      <DependentUpon>ThongKeChiTietSMSForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TrangChuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\TrangChuForm.Designer.cs">
+      <DependentUpon>TrangChuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Views\GuiTinNhanForm.resx">
+      <DependentUpon>GuiTinNhanForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MainFrom.resx">
+      <DependentUpon>MainFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\PhanNhomForm.resx">
+      <DependentUpon>PhanNhomForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\icon\icons8-chat-40-white.png" />
+    <Content Include="Resources\icon\icons8-close-window-30-white.png" />
+    <Content Include="Resources\icon\icons8-contacts-40-white.png" />
+    <Content Include="Resources\icon\icons8-genealogy-40-white.png" />
+    <Content Include="Resources\icon\icons8-home-40_white.png" />
+    <Content Include="Resources\icon\icons8-mail-contact-40-white.png" />
+    <Content Include="Resources\icon\icons8-minimize-30-white.png" />
+    <Content Include="Resources\icon\icons8-restore-down-30-white.png" />
+    <Content Include="Resources\icon\icons8-user-gr-40-white.png" />
+    <Content Include="Resources\icon\logo_vnpt.png" />
+    <Content Include="Resources\img\logo_vnpt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

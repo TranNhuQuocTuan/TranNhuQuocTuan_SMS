@@ -1,0 +1,25 @@
+C:\Users\anhtr\source\repos\HeThongTinNhanSMS\HeThongTinNhanSMS\bin\Debug\HeThongTinNhanSMS.exe.config
+C:\Users\anhtr\source\repos\HeThongTinNhanSMS\HeThongTinNhanSMS\bin\Debug\HeThongTinNhanSMS.exe
+C:\Users\anhtr\source\repos\HeThongTinNhanSMS\HeThongTinNhanSMS\bin\Debug\HeThongTinNhanSMS.pdb
+C:\Users\anhtr\source\repos\HeThongTinNhanSMS\HeThongTinNhanSMS\obj\Debug\HeThongTinNhanSMS.csproj.AssemblyReference.cache
+C:\Users\anhtr\source\repos\HeThongTinNhanSMS\HeThongTinNhanSMS\obj\Debug\HeThongTinNhanSMS.csproj.SuggestedBindingRedirects.cache
+C:\Users\anhtr\source\repos\HeThongTinNhanSMS\HeThongTinNhanSMS\obj\Debug\HeThongTinNhanSMS.MainFrom.resources
+C:\Users\anhtr\source\repos\HeThongTinNhanSMS\HeThongTinNhanSMS\obj\Debug\HeThongTinNhanSMS.Properties.Resources.resources
+C:\Users\anhtr\source\repos\HeThongTinNhanSMS\HeThongTinNhanSMS\obj\Debug\HeThongTinNhanSMS.csproj.GenerateResource.cache
+C:\Users\anhtr\source\repos\HeThongTinNhanSMS\HeThongTinNhanSMS\obj\Debug\HeThongTinNhanSMS.csproj.CoreCompileInputs.cache
+C:\Users\anhtr\source\repos\HeThongTinNhanSMS\HeThongTinNhanSMS\obj\Debug\HeThongTinNhanSMS.exe
+C:\Users\anhtr\source\repos\HeThongTinNhanSMS\HeThongTinNhanSMS\obj\Debug\HeThongTinNhanSMS.pdb
+C:\Users\anhtr\source\repos\HeThongTinNhanSMS\HeThongTinNhanSMS\obj\Debug\HeThongTinNhanSMS.Froms.GuiTinNhanForm.resources
+C:\Users\anhtr\source\repos\HeThongTinNhanSMS\HeThongTinNhanSMS\obj\Debug\HeThongTinNhanSMS.Froms.PhanNhomForm.resources
+E:\Thuc tap 2022\HeThongTinNhanSMS\HeThongTinNhanSMS\bin\Debug\HeThongTinNhanSMS.exe.config
+E:\Thuc tap 2022\HeThongTinNhanSMS\HeThongTinNhanSMS\bin\Debug\HeThongTinNhanSMS.exe
+E:\Thuc tap 2022\HeThongTinNhanSMS\HeThongTinNhanSMS\bin\Debug\HeThongTinNhanSMS.pdb
+E:\Thuc tap 2022\HeThongTinNhanSMS\HeThongTinNhanSMS\obj\Debug\HeThongTinNhanSMS.csproj.AssemblyReference.cache
+E:\Thuc tap 2022\HeThongTinNhanSMS\HeThongTinNhanSMS\obj\Debug\HeThongTinNhanSMS.Froms.GuiTinNhanForm.resources
+E:\Thuc tap 2022\HeThongTinNhanSMS\HeThongTinNhanSMS\obj\Debug\HeThongTinNhanSMS.MainFrom.resources
+E:\Thuc tap 2022\HeThongTinNhanSMS\HeThongTinNhanSMS\obj\Debug\HeThongTinNhanSMS.Froms.PhanNhomForm.resources
+E:\Thuc tap 2022\HeThongTinNhanSMS\HeThongTinNhanSMS\obj\Debug\HeThongTinNhanSMS.Properties.Resources.resources
+E:\Thuc tap 2022\HeThongTinNhanSMS\HeThongTinNhanSMS\obj\Debug\HeThongTinNhanSMS.csproj.GenerateResource.cache
+E:\Thuc tap 2022\HeThongTinNhanSMS\HeThongTinNhanSMS\obj\Debug\HeThongTinNhanSMS.csproj.CoreCompileInputs.cache
+E:\Thuc tap 2022\HeThongTinNhanSMS\HeThongTinNhanSMS\obj\Debug\HeThongTinNhanSMS.exe
+E:\Thuc tap 2022\HeThongTinNhanSMS\HeThongTinNhanSMS\obj\Debug\HeThongTinNhanSMS.pdb
